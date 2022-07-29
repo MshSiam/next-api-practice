@@ -34,7 +34,7 @@ function CommentPage() {
       <br />
       <br />
       <br />
-      <button onClick={fetchComments}>Load Comments</button>
+      <button onClick={fetchComments}>Load All Comments</button>
       {comments.map((comment) => {
         return (
           <div key={comment.id}>
