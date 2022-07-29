@@ -1,4 +1,5 @@
 import { useState } from "react"
+import styles from "../../styles/comment.module.css"
 
 function CommentPage() {
   const [comments, setComments] = useState([])
@@ -43,7 +44,9 @@ function CommentPage() {
       <br />
       <br />
       <br />
-      <button onClick={fetchComments}>Load All Comments</button>
+      <button className={styles.btn} onClick={fetchComments}>
+        Load All Comments
+      </button>
       {comments.map((comment) => {
         return (
           <div key={comment.id}>

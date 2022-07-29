@@ -21,7 +21,7 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: rgb(5, 2, 31);
     text-align: center;
     margin-top: 30px;
   }
@@ -37,15 +37,17 @@ input {
 button {
   background-color: rgb(134, 15, 105);
   border: none;
-  height: 20px;
+  height: 40px;
+  padding: 10px;
   border-radius: 10px;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .dlt {
   background-color: rgb(167, 6, 0);
   border: none;
-  height: 20px;
+  height: 40px;
   border-radius: 10px;
   margin-top: 10px;
 }
