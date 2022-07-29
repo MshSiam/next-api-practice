@@ -8,7 +8,7 @@ export default function handler(req, res) {
     )
     console.log(comment)
     res.status(200).json(comment)
-  } else if (req.methode === "DELETE") {
+  } else if (req.method === "DELETE") {
     const deletedComment = comments.find(
       (comment) => comment.id === parseInt(commentId)
     )
@@ -16,7 +16,6 @@ export default function handler(req, res) {
       (comment) => comment.id === parseInt(commentId)
     )
     comments.splice(index, 1)
-    console.log(deletedComment)
     res.status(200).json(deletedComment)
   }
 }
