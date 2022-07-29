@@ -41,3 +41,11 @@ button {
   border-radius: 10px;
   margin-top: 10px;
 }
+
+.dlt {
+  background-color: rgb(167, 6, 0);
+  border: none;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
