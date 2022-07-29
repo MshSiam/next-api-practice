@@ -6,7 +6,7 @@ function Home() {
       <h1>This is Next Api CRUD practice.</h1>
 
       <button>
-        <Link href="/Comments">Comments</Link>
+        <Link href="/comments">Comments</Link>
       </button>
     </>
   )
